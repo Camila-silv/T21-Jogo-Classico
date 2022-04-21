@@ -13,6 +13,7 @@
 | RA         | NOME COMPLETO                        | CURSO | TURMA |
 |------------|--------------------------------------|-------|-------|
 | 920119242  | Camila Ferreira da Silva             | TADS  |  5A   |
+| 921205867  | Raissa Silva de Jesus dos Santos     | TADS  |  2A   |
 
 
 
