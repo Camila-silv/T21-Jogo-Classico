@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5) 100%), url("https://indieon.com.br/wp-content/uploads/2020/03/indiegames.png");
+  background-size:cover;
+  
+}
+
+body{
+  margin-left: 400px;
+}
+
+.botoes  i {
+  font-size: 50px;
+}
+
+.botoes div {
+  display: inline-block;
+}
+
+.botoes {
+  position: relative;
+  width: 15%;
+  margin-left: 250px;
+  /* background-color: aqua; */
+  top: 540px;
+}
+
+.botoes  i{
+  color: rgb(255, 238, 0)
+}
+
+.botoes  i:hover {
+  color: blue;
+
+}
+
+.botoes  i:active{
+  color: green;
+}
+
+.botao-repita {
+  position: absolute;
+  right: 0px;
+}
+ 
