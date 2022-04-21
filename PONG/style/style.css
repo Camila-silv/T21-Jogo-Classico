@@ -6,6 +6,7 @@ body {
 
 body{
   margin-left: 400px;
+  margin-top: 30px;
 }
 
 .botoes  i {
@@ -19,9 +20,9 @@ body{
 .botoes {
   position: relative;
   width: 15%;
-  margin-left: 250px;
+  margin-left: 170px;
   /* background-color: aqua; */
-  top: 540px;
+  top: 500px;
 }
 
 .botoes  i{

@@ -47,23 +47,26 @@ function setup() {
   
 }
 
-function draw() {
+  function draw() {
+      background(0);
+      mostraBolinha();  
+      colisao();
+      mostraRaquete(xRaquete,yRaquete,diametroRaquete,alturaRaquete);
+      mostraRaquete(xRaqueteOponente ,yRaqueteOponente ,diametroRaquete,alturaRaquete);  
+      colisaoComRaquete();
+      colisaoComRaqueteOponente();
+      mostraPlacar(xMeuPlacar,yMeuPlacar,comprimetoPlacar,alturaPlacar);
+      mostraPlacar(xPlacarOponente,yPlacarOponente,comprimetoPlacar,alturaPlacar); 
+      vencedor();
+      movimentoOponente();
+      movimentoRaquete();
+      movimentoDaBolinha();
+         
+    
+  }
 
-  background(0);
-  mostraBolinha();  
-  colisao();
-  mostraRaquete(xRaquete,yRaquete,diametroRaquete,alturaRaquete);
-  mostraRaquete(xRaqueteOponente ,yRaqueteOponente ,diametroRaquete,alturaRaquete);  
-  colisaoComRaquete();
-  colisaoComRaqueteOponente();
-  mostraPlacar(xMeuPlacar,yMeuPlacar,comprimetoPlacar,alturaPlacar);
-  mostraPlacar(xPlacarOponente,yPlacarOponente,comprimetoPlacar,alturaPlacar); 
-  vencedor();
-  movimentoOponente();
-  movimentoRaquete();
-  movimentoDaBolinha();
-  
-}
+
+
 
 function vencedor(){
 
