@@ -1,13 +1,81 @@
 body {
   background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5) 100%), url("https://indieon.com.br/wp-content/uploads/2020/03/indiegames.png");
   background-size:cover;
+  margin-left: 400px;
+  margin-top: 30px;
+  font-family: 'Teko', sans-serif;
+}
+  
+
+.manual {
+  display: inline-block;
+  width: 20%;
+  height: 75%;
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5) 100%), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuwre2iXSIRVZq2uphjS9TRnC-v9YXoLiiXQ&usqp=CAU");
+  background-size: cover;
+  position: fixed;
+  left: 40px;
+  padding: 120px 10px 10px 40px;
+  color: white;
+  border-radius: 20px;
   
 }
 
-body{
-  margin-left: 400px;
-  margin-top: 30px;
+.manual h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
 }
+
+.manual > h2::before{
+   content: "★ ";
+}
+
+.manual p {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.manual > p::before{
+  content: "𐤟 ";
+}
+
+.abrirAba {
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  left: 60px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: rgb(255, 238, 0);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.abrirAba:hover {
+  background-color: rgb(34, 0, 128);
+  color: white;
+}
+
+.fecharAba {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.fecharAba:hover {
+  color: blue;
+}
+
+.fecharAba:active{
+  color: green;
+}
+
 
 .botoes  i {
   font-size: 50px;
@@ -26,7 +94,7 @@ body{
 }
 
 .botoes  i{
-  color: rgb(255, 238, 0)
+  color: rgb(255, 238, 0);
 }
 
 .botoes  i:hover {
