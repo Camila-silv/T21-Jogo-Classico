@@ -8,7 +8,7 @@ body {
   
 
 .manual {
-  display: inline-block;
+  display: none;
   width: 20%;
   height: 75%;
   background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5) 100%), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuwre2iXSIRVZq2uphjS9TRnC-v9YXoLiiXQ&usqp=CAU");

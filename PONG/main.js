@@ -43,7 +43,7 @@ let velocidadeYOponente;
 
 function setup() {
   createCanvas(600, 460);
-  trilha.loop();
+  // trilha.loop();
   
 }
 
@@ -61,17 +61,17 @@ function setup() {
       movimentoOponente();
       movimentoRaquete();
       movimentoDaBolinha();
-         
+    
     
   }
 
 
-  function preload(){
+  // function preload(){
     
-    trilha = loadSound("/sons/trilha.mp3");
-    ponto = loadSound("/sons/ponto.mp3");
-    raquetada = loadSound("/sons/raquetada.mp3");
-  }
+  //   trilha = loadSound("sons/trilha.mp3");
+  //   ponto = loadSound("sons/ponto.mp3");
+  //   raquetada = loadSound("sons/raquetada.mp3");
+  // }
 
 
 
@@ -158,14 +158,14 @@ function colisao(){
        xVelocidadeDaBolinha *= - 1;
        
        meusPontos += 1;
-       ponto.play();
+      //  ponto.play();
      }
   if( xBolinha < 10)
     {
        xVelocidadeDaBolinha *= - 1;
        
        pontosDoOponente += 1;
-       ponto.play();
+      //  ponto.play();
     }
   
   if(yBolinha > 400 || yBolinha < 80)
@@ -180,7 +180,7 @@ function colisaoComRaquete(){
   if(xBolinha - raio < xRaquete + diametroRaquete && yBolinha - raio < yRaquete + alturaRaquete && yBolinha + raio > yRaquete)
     {
       xVelocidadeDaBolinha *= - 1;
-      raquetada.play();
+      // raquetada.play();
     }
 }
 
@@ -188,7 +188,7 @@ function colisaoComRaqueteOponente(){
   if(xBolinha + diametro > xRaqueteOponente + diametroRaquete && yBolinha - raio < yRaqueteOponente + alturaRaquete && yBolinha + raio > yRaqueteOponente)
     {
        xVelocidadeDaBolinha *= -1;
-       raquetada.play();
+      //  raquetada.play();
     }
 }
 
