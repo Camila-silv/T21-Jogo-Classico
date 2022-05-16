@@ -24,6 +24,7 @@
 <img src="https://i0.wp.com/portalvarada.com/wp-content/uploads/2022/02/pong-o-jogo-que-deu-origem-a-industria-de-videogames-ha-5-decadas-biznews-brasil-noticias-de-fusoes-e-aquisicoes-de-empresas.png?resize=800%2C245&ssl=1">
 </div>
 
-<h2>Desenvolvedores</h2>
+<h2>Site</h2>
+https://pong-t21.000webhostapp.com/PONG/index.html
    
     
