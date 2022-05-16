@@ -15,6 +15,8 @@
 | 920119242  | Camila Ferreira da Silva             | TADS  |  5A   |
 | 921205867  | Raissa Silva de Jesus dos Santos     | TADS  |  2A   |
 | 921205670  | Nicolas magalhães de Castro e Silva  | TADS  |  2A   |
+| 1721106252 | Gabriel Medeiros Costa               | TADS  |  2A   |
+| 921203200  | Bruno Pieretti de Cunto              | TADS  |  3A   |
 
 
 
